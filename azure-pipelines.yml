@@ -27,6 +27,9 @@ stages:
     - task: NodeTool@0
       inputs:
         versionSpec: '4.x'
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '4.x'
     - task: Npm@1
       displayName: 'Run npm install'
       inputs:
